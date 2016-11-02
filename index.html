@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <script src="jquery.js"></script>
+    <script src="tictactoe.js"></script>
+    <style>
+    table {
+      margin: auto;
+    }
+    body {
+      text-align: center;
+    }
+    button.square {
+      display: block;
+      width: 100px;
+      height: 100px;
+      font-size: 500%;
+    }
+    #banner {
+      color: green;
+      font-size: 400%;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div id="banner"></div>
+    <button id="new-game">New game</button>
+    <table>
+      <tr>
+        <td><button class="square" id="1"></button></td>
+        <td><button class="square" id="2"></button></td>
+        <td><button class="square" id="3"></button></td>
+      </tr>
+      <tr>
+        <td><button class="square" id="4"></button></td>
+        <td><button class="square" id="5"></button></td>
+        <td><button class="square" id="6"></button></td>
+      </tr>
+      <tr>
+        <td><button class="square" id="7"></button></td>
+        <td><button class="square" id="8"></button></td>
+        <td><button class="square" id="9"></button></td>
+      </tr>
+    </table>
+  </body>
+</html>
